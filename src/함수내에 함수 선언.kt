@@ -1,8 +1,8 @@
 fun sum(a:Int, b:Int):Int {
     var sum =0
     fun calSum(){
-        for(i in a..b){
-            sum += i
+        for(j in a..b){
+            sum += j
         }
     }
     calSum()
