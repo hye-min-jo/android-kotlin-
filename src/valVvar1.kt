@@ -1,7 +1,7 @@
-var myBool=false
+var myBol=false
 val myVal:String="hello"
     get(){
-        if (myBool)
+        if (myBol)
             return field
 
         else
@@ -10,6 +10,6 @@ val myVal:String="hello"
 
 fun main(args:Array<String>){
     println(myVal)
-    myBool=true
+    myBol=true
     println(myVal)
 }
